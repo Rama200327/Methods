@@ -3,7 +3,7 @@ class program
 {
     static void main()
     {
-        //Even Numbers Filter
+        //Even Numbers Filter (where)
         List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
         List<int> evens = numbers.Where(n => n % 2 == 0).ToList();
 
